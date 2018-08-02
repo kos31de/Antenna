@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <titile>RubyとSinatraで簡単アンテナサイト</title>
+  </head>
+  <body>
+    <h1>RubyとSinatraで簡単アンテナサイト</h1>
+    <h2><%= @rss1.channel.title %></h2>
+    <ul>
+    <% @rss1.items.each do |entry| %>
+      <li><a href="<%= entry.link %>"><%= entry.title %></a></li>
+    <% end %>
+    </ul>
+    <h2><%= @rss2.channel.title %></h2>
+    <ul>
+    <% @rss2.items.each do |entry| %>
+      <li><a href="<%= entry.link %>"><%= entry.title %></a></li>
+    <% end %>
+    </ul>
+  </body>
+ </html> 
