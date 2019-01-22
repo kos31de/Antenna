@@ -1,0 +1,19 @@
+current directory: /Users/kousy/Development/Antenna/bundle/ruby/2.5.0/gems/byebug-10.0.2/ext/byebug
+/Users/kousy/.rbenv/versions/2.5.1/bin/ruby -I /Users/kousy/.rbenv/versions/2.5.1/lib/ruby/site_ruby/2.5.0 -r ./siteconf20190122-37976-qiwaa5.rb extconf.rb
+creating Makefile
+
+current directory: /Users/kousy/Development/Antenna/bundle/ruby/2.5.0/gems/byebug-10.0.2/ext/byebug
+make "DESTDIR=" clean
+
+current directory: /Users/kousy/Development/Antenna/bundle/ruby/2.5.0/gems/byebug-10.0.2/ext/byebug
+make "DESTDIR="
+compiling breakpoint.c
+compiling byebug.c
+compiling context.c
+compiling locker.c
+compiling threads.c
+linking shared-object byebug/byebug.bundle
+
+current directory: /Users/kousy/Development/Antenna/bundle/ruby/2.5.0/gems/byebug-10.0.2/ext/byebug
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 byebug.bundle ./.gem.20190122-37976-1dqhohd/byebug
