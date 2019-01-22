@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/<kou-sy>/<Antenna>.svg?branch=master)](https://travis-ci.org/<kou-sy>/<Antenna>)
 # Antenna
 
 ## How to run
